@@ -1,3 +1,32 @@
-.navbar {
-  width: 100vw;
+/* Jumbotron */
+.hero {
+  background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
+    url("img/pizza.hero.jpg") center/cover no-repeat;
+}
+.jumbotron .container {
+  /* background: rgba(255, 255, 255, 0.3); */
+  color: white;
+}
+
+/* Menu Cards */
+.extra-description {
+  padding: 20px;
+}
+#pizza {
+  margin: 0 auto;
+}
+table {
+  text-align: center;
+  margin: 0 auto;
+}
+th {
+  padding: 15px;
+}
+
+@media screen and (max-width: 450px) {
+  th,
+  td {
+    padding: 2px;
+    font-size: 0.8rem;
+  }
 }
