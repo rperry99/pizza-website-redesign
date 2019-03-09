@@ -8,13 +8,7 @@
   color: white;
 }
 
-/* Menu Cards */
-.extra-description {
-  padding: 20px;
-}
-#pizza {
-  margin: 0 auto;
-}
+/* Menu */
 table {
   text-align: center;
   margin: 0 auto;
@@ -22,8 +16,35 @@ table {
 th {
   padding: 15px;
 }
+.tagline {
+  color: #222;
+  text-align: center;
+}
+.menu-item h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+}
+.menu-item h2 {
+  margin-top: 20px;
+}
+#pizza h1 {
+  background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
+    url("img/pizza.hero.jpg") center/cover no-repeat;
+}
+#toppings {
+  margin-top: 20px;
+}
+#specialty {
+  list-style: none;
+  text-align: center;
+}
+#specialty li {
+  margin: 15px 0;
+}
 
-/* Lcoation Page */
+/* Location Page */
 #locations {
   display: flex;
   flex-direction: row;
@@ -50,5 +71,8 @@ th {
   }
   #locations .card {
     display: block;
+  }
+  .menu-item h2 {
+    text-align: center;
   }
 }

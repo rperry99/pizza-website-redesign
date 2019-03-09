@@ -59,21 +59,91 @@
     </nav>
 
     <div class="container">
-      <div id="pizza" class="card">
-        <img src="img/pizza.jpg" class="card-img-top" alt="Image of Pizza" />
-        <div class="card-body">
-          <h5 class="card-title">Pizza</h5>
-          <p class="card-text">
-            All pies include tomato sauce and cheese or our white pizza with
-            garlic sauce and cheese. Available in THIN & CRISPY, or our
-            TRADITIONAL crust.
-          </p>
-        </div>
+      <div id="pizza" class="menu-item">
+        <h1>Pizza</h1>
+        <p class="tagline">
+          All pies include tomato sauce and cheese, or our white pizza with
+          garlic sauce and cheese. <br />
+          Available in <em>thin and crispy</em>, our our
+          <em>traditional</em> crust.
+        </p>
         <hr />
-        <div>
+        <h2>Build Your Own</h2>
+        <table>
+          <tr class="table-header">
+            <th></th>
+            <th>
+              Small<br />9"<br />
+              (6-cut)
+            </th>
+            <th>Large<br />12" <br />(8-cut)</th>
+            <th>Family<br />16" <br />(12-cut)</th>
+            <th>Half Sheet<br />(20-cut)</th>
+          </tr>
+          <tr>
+            <td>Plain (cheese and sauce)</td>
+            <td>$6.99</td>
+            <td>$9.99</td>
+            <td>$12.99</td>
+            <td>$15.99</td>
+          </tr>
+          <tr>
+            <td>Additional Toppings</td>
+            <td>$1.25</td>
+            <td>$1.50</td>
+            <td>$1.75</td>
+            <td>$2.00</td>
+          </tr>
+          <tr>
+            <td>Extra Cheese</td>
+            <td>$2.50</td>
+            <td>$3.00</td>
+            <td>$3.50</td>
+            <td>$4.00</td>
+          </tr>
+        </table>
+
+        <table id="toppings">
+          <tr>
+            <th colspan="4">Additional Toppings</th>
+          </tr>
+          <tr>
+            <td>Extra Cheese</td>
+            <td>Pepperoni</td>
+            <td>Ham</td>
+            <td>Bacon</td>
+          </tr>
+          <tr>
+            <td>Mushrooms</td>
+            <td>Red and Green Peppers</td>
+            <td>Onions</td>
+            <td>Black Olives</td>
+          </tr>
+          <tr>
+            <td>Sausage</td>
+            <td>Ground Meat</td>
+            <td>Mild Banana Pepper Rings</td>
+            <td>Anchovies</td>
+          </tr>
+          <tr>
+            <td>Jalapeno Peppers</td>
+            <td>Cheddar Cheese</td>
+            <td>Fresh Sliced Tomato</td>
+            <td>Pineapple</td>
+          </tr>
+          <tr>
+            <td>Fresh Green Peppers</td>
+            <td>Broccoli</td>
+            <td>Spinach</td>
+            <td>Ricotta Cheese</td>
+          </tr>
+        </table>
+
+        <hr />
+        <h2>Specialty</h2>
+        <ul id="specialty">
           <table>
-            <tr class="table-header">
-              <th></th>
+            <tr>
               <th>
                 Small<br />9"<br />
                 (6-cut)
@@ -83,37 +153,116 @@
               <th>Half Sheet<br />(20-cut)</th>
             </tr>
             <tr>
-              <td>Plain (cheese and sauce)</td>
-              <td>$6.99</td>
-              <td>$9.99</td>
-              <td>$12.99</td>
+              <td>$11.99</td>
               <td>$15.99</td>
-            </tr>
-            <tr>
-              <td>Additional Toppings</td>
-              <td>$1.25</td>
-              <td>$1.50</td>
-              <td>$1.75</td>
-              <td>$2.00</td>
-            </tr>
-            <tr>
-              <td>Extra Cheese</td>
-              <td>$2.50</td>
-              <td>$3.00</td>
-              <td>$3.50</td>
-              <td>$4.00</td>
+              <td>$18.99</td>
+              <td>$22.99</td>
             </tr>
           </table>
-        </div>
+
+          <li>
+            <strong>Deluxe</strong><br />
+            Pepperoni, Mushroom, Red and Green Pepper, Onion, Black Olive, and
+            Sausage
+          </li>
+          <li>
+            <strong>All Meat</strong><br />
+            Pepperoni, Ham, Bacon, Ground Beef, Sausage
+          </li>
+          <li>
+            <strong>Double Bacon Cheese Burger</strong><br />
+            Provolone &amp; Cheddar Cheese, Bacon, Ground Beef
+          </li>
+          <li>
+            <strong>Triple Cheese</strong><br />
+            Two layers of Provolone cheese around one layer of Cheddar Cheese
+            plus any two toppings
+          </li>
+          <li>
+            <strong>Veggie</strong><br />
+            Mushroom, Red and Green Pepper, Onion, Black Olive, Mild Banana
+            Pepper Rings, Fresh Sliced Tomato
+          </li>
+          <li>
+            <strong>Hawaiian</strong><br />
+            Extra Cheese, Ham, Bacon, Pineapple
+          </li>
+          <li>
+            <strong>Give Me 5</strong><br />
+            Any 5 of your favorite toppings
+          </li>
+          <li>
+            <strong>Pepperoni Melt</strong><br />
+            Triple layers of pepperoni and cheese
+          </li>
+          <li>
+            <strong>Taco</strong><br />
+            Seasoned Ground Beef, Taco Sauce, Cheddar Cheese, Black Olives,
+            Onions, Tomatoes, Lettuce
+          </li>
+          <li>
+            <strong>BBQ Chicken</strong><br />
+            Generous serving of real BBQ chicken plus any two of your favorite
+            toppings
+          </li>
+          <li>
+            <strong>Grilled Chicken</strong><br />
+            Big chunks of grilled chicken bus any two of your favorite toppings
+          </li>
+          <li>
+            <strong>Spicy Hot Italian</strong><br />
+            Big chunks of italian sausage, fried peppers, onions, and hot &amp;
+            spicy seasonings
+          </li>
+          <li>
+            <strong>Italian Meatball Pizza</strong><br />
+            Thick slices of our homemade meatballs cover the entire pizza, then
+            it is topped with our special blend of romano cheese and herbs
+          </li>
+          <li>
+            <strong>Garden Ranch</strong><br />
+            Special Ranch Sauce, Cheese, Fresh Green Peppers, Onion, Black
+            Olives, Broccolo, Cauliflower, Fresh Tomatoes
+          </li>
+          <li>
+            <strong>Italian Chicken</strong><br />
+            Italian Seasoned Chicken Chunks, Fresh Green Peppers, Onions
+          </li>
+        </ul>
         <hr />
-        <p class="card-text extra-description">
-          <strong>Additional Toppings</strong><br />
-          Extra Cheese, Pepperoni, Ham, Bacon, Mushrooms, Red and Green Peppers,
-          Onions, Black Olives, Sausage, Ground Meat, Mild Banana Pepper Rings,
-          Anchovies, Jalapeno Peppers, Cheddar Cheese, Fresh Sliced Tomato,
-          Pinapple, Fresh Green Peppers, Broccoli, Spinach, Ricotta Cheese
+        <h2>French Bread Pizza</h2>
+        <p class="tagline">
+          1/2 loaf of our fresh baked bread, split in two, covered in our
+          special sauce and cheese and baked to a golden brown.
         </p>
+        <table>
+          <tr>
+            <td>Plain Cheese</td>
+            <td>$7.49</td>
+          </tr>
+          <tr>
+            <td>Pepperoni</td>
+            <td>$8.99</td>
+          </tr>
+          <tr>
+            <td>Sausage</td>
+            <td>$8.99</td>
+          </tr>
+          <tr>
+            <td>Veggie</td>
+            <td>$9.99</td>
+          </tr>
+          <tr>
+            <td>Deluxe</td>
+            <td>$10.99</td>
+          </tr>
+          <tr>
+            <td>Additional Toppings</td>
+            <td>$1.25</td>
+          </tr>
+        </table>
       </div>
+      <!-- End Pizza Div -->
     </div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
