@@ -44,6 +44,10 @@ th {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/pasta.jpg") center/cover no-repeat;
 }
+#soup-salad h1 {
+  background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
+    url("img/salad.jpg") center/cover no-repeat;
+}
 #toppings {
   margin-top: 20px;
 }

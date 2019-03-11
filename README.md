@@ -15,6 +15,7 @@ All images came from Unsplash
 - pizza.jpg (Pizza Menu Item) [Brenna Huff](https://unsplash.com/@brenna_lynn)
 - subs.jpg (Sub and Sandwich menu item)[Raphael Nogueriea](https://unsplash.com/@phaelnogueira)
 - pasta.jpg (Pasta menu item) [Keri Iiwi](https://unsplash.com/@keriliwi)
+- salad.jpg (Soup and salad menu item) [Taylor Kiser](https://unsplash.com/@foodfaithfit)
 
 ### Locations Page
 
