@@ -24,10 +24,10 @@ th {
   margin-top: 50px;
 }
 .menu-item h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-align: center;
   color: white;
-  padding: 10px 0;
+  padding: 35px 0;
 }
 .menu-item h2 {
   margin-top: 20px;
@@ -40,6 +40,10 @@ th {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/subs.jpg") center/cover no-repeat;
 }
+#pasta h1 {
+  background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
+    url("img/pasta.jpg") center/cover no-repeat;
+}
 #toppings {
   margin-top: 20px;
 }
@@ -50,8 +54,20 @@ th {
 #specialty li {
   margin: 15px 0;
 }
-.sub-title {
-  padding: 15px 0;
+.item-title {
+  padding: 15px;
+}
+.short-table {
+  width: 60%;
+}
+#sauce-options {
+  list-style: none;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+#sauce-options li {
+  padding-top: 15px;
 }
 
 /* Location Page */
@@ -84,5 +100,9 @@ th {
   }
   .menu-item h2 {
     text-align: center;
+  }
+  #sauce-options,
+  .short-table {
+    width: 100%;
   }
 }
