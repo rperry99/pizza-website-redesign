@@ -20,6 +20,9 @@ th {
   color: #222;
   text-align: center;
 }
+.menu-item {
+  margin-top: 50px;
+}
 .menu-item h1 {
   font-size: 1.5rem;
   text-align: center;
@@ -33,6 +36,10 @@ th {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/pizza.hero.jpg") center/cover no-repeat;
 }
+#subs h1 {
+  background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
+    url("img/subs.jpg") center/cover no-repeat;
+}
 #toppings {
   margin-top: 20px;
 }
@@ -42,6 +49,9 @@ th {
 }
 #specialty li {
   margin: 15px 0;
+}
+.sub-title {
+  padding: 15px 0;
 }
 
 /* Location Page */
