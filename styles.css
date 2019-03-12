@@ -50,6 +50,11 @@ th {
 }
 #toppings {
   margin-top: 20px;
+  text-align: center;
+}
+#toppings h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 #specialty {
   list-style: none;
