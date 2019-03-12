@@ -51,6 +51,8 @@ th {
 #toppings {
   margin-top: 20px;
   text-align: center;
+  width: 60%;
+  margin: 20px auto 0;
 }
 #toppings h3 {
   font-size: 1.2rem;
@@ -59,6 +61,8 @@ th {
 #specialty {
   list-style: none;
   text-align: center;
+  margin: 0 auto;
+  padding: 0;
 }
 #specialty li {
   margin: 15px 0;
@@ -111,7 +115,8 @@ th {
     text-align: center;
   }
   #sauce-options,
-  .short-table {
+  .short-table,
+  #toppings {
     width: 100%;
   }
 }
