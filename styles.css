@@ -11,7 +11,7 @@
 /* Menu */
 table {
   text-align: center;
-  margin: 0 auto;
+  margin: 20px auto 0;
 }
 th {
   padding: 15px;
@@ -19,6 +19,8 @@ th {
 .tagline {
   color: #222;
   text-align: center;
+  width: 60%;
+  margin: 0 auto;
 }
 .menu-item {
   margin-top: 50px;
@@ -48,6 +50,10 @@ th {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/salad.jpg") center/cover no-repeat;
 }
+#extras h1 {
+  background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
+    url("img/sides.jpg") center/cover no-repeat;
+}
 #toppings {
   margin-top: 20px;
   text-align: center;
@@ -68,7 +74,7 @@ th {
   margin: 15px 0;
 }
 .item-title {
-  padding: 15px;
+  padding: 5px 15px;
 }
 .short-table {
   width: 60%;
@@ -81,6 +87,9 @@ th {
 }
 #sauce-options li {
   padding-top: 15px;
+}
+#desserts em {
+  font-size: 0.8rem;
 }
 
 /* Location Page */
@@ -116,7 +125,8 @@ th {
   }
   #sauce-options,
   .short-table,
-  #toppings {
+  #toppings,
+  .tagline {
     width: 100%;
   }
 }

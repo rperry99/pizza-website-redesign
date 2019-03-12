@@ -16,6 +16,7 @@ All images came from Unsplash
 - subs.jpg (Sub and Sandwich menu item)[Raphael Nogueriea](https://unsplash.com/@phaelnogueira)
 - pasta.jpg (Pasta menu item) [Keri Iiwi](https://unsplash.com/@keriliwi)
 - salad.jpg (Soup and salad menu item) [Taylor Kiser](https://unsplash.com/@foodfaithfit)
+- sides.jpg (extras menu item) [Vera Cho](https://unsplash.com/@yunweimeng)
 
 ### Locations Page
 
