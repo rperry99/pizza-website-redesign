@@ -20,7 +20,7 @@ This is a redesign of a local pizza shop's website.
 - Catering Page
   - Add Catering Info / Menu
 - Deals
-  - Add Coupons
+  - Add Coupons and other deals
 - About
   - Do either a lorem ipsum story or make something up
 
