@@ -2,6 +2,28 @@
 
 This is a redesign of a local pizza shop's website.
 
+## Progress
+
+### What's Done
+
+- Location page
+  - Images are just plaecholders, Might change one of them so they look different.
+
+### To-do
+
+- Home Page
+  - Add some basic info and a cover image maybe?
+- Menu Page
+  - Add Calzones
+  - Add second Nav bar for easy scrolling
+  - Add scrolling effect to the menu headings (maybe)
+- Catering Page
+  - Add Catering Info / Menu
+- Deals
+  - Add Coupons
+- About
+  - Do either a lorem ipsum story or make something up
+
 ## Photo Credits
 
 All images came from Unsplash
