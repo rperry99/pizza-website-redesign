@@ -64,13 +64,13 @@ th {
   font-size: 1.2rem;
   font-weight: bold;
 }
-#specialty {
+#specialty ul {
   list-style: none;
   text-align: center;
   margin: 0 auto;
   padding: 0;
 }
-#specialty li {
+#specialty ul li {
   margin: 15px 0;
 }
 .item-title {
