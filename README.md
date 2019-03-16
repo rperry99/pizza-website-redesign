@@ -41,9 +41,9 @@ All images came from Unsplash
 
 ### Locations Page
 
-- cleveland.jpg (Cleveland Location Placeholder) [Alessandro Cavestro](https://unsplash.com/@alessandrocavestro_) ****Unused****
+- cleveland.jpg (Cleveland Location Placeholder) [Alessandro Cavestro](https://unsplash.com/@alessandrocavestro_) **_Unused_**
 - akron.jpg (Akron Location Placeholder) [Matt Antonioli](https://unsplash.com/@antoniolio)
 
 ### About Page
 
-- about.jpg [Jodie Morgan](https://unsplash.com/@twoluckyspoons) ****Unused****
+- about.jpg [Jodie Morgan](https://unsplash.com/@twoluckyspoons) **_Unused_**
