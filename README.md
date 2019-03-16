@@ -12,16 +12,12 @@ This is a redesign of a local pizza shop's website.
   - Images are just plaecholders, Might change one of them so they look different.
 - Menu Page
   - All menu items are added
+  - Added a second nav bar that uses tabs, so each menu category has it's own tab, menu no longer one long list
 
-### To-do
+### Things I might add in the future
 
-- Menu Page
-  - Add second Nav bar for easy searching
-  - Add scrolling effect to the menu headings (maybe)
-- Catering Page
-  - Add Catering Info / Menu
-- Deals
-  - Add Coupons and other deals
+- Add Catering Page
+- Add Deals Page
 
 ## Photo Credits
 
