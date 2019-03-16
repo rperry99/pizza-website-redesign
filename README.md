@@ -6,6 +6,8 @@ This is a redesign of a local pizza shop's website.
 
 ### What's Done
 
+- Home (Index) Page
+  - Move the info that was on the about section to this page
 - Location page
   - Images are just plaecholders, Might change one of them so they look different.
 - Menu Page
@@ -13,8 +15,6 @@ This is a redesign of a local pizza shop's website.
 
 ### To-do
 
-- Home Page
-  - Add some basic info and a cover image maybe?
 - Menu Page
   - Add second Nav bar for easy searching
   - Add scrolling effect to the menu headings (maybe)
@@ -22,8 +22,6 @@ This is a redesign of a local pizza shop's website.
   - Add Catering Info / Menu
 - Deals
   - Add Coupons and other deals
-- About
-  - Do either a lorem ipsum story or make something up
 
 ## Photo Credits
 
