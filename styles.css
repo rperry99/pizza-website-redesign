@@ -95,10 +95,10 @@ th {
   padding: 0;
 }
 #sauce-options li {
-  padding-top: 15px;
+  padding: 15px 0 0 0;
 }
 #desserts em {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 /* Location Page */
@@ -119,9 +119,10 @@ th {
 /* Media Queries  */
 @media screen and (max-width: 768px) {
   th,
-  td {
+  td,
+  ul {
     padding: 2px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   #locations {
     flex-direction: column;
@@ -131,7 +132,7 @@ th {
   #locations .card {
     display: block;
   }
-  .menu-item h2 {
+  #pills-tabContent h2 {
     text-align: center;
   }
   #sauce-options,
