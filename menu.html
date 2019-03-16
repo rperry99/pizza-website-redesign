@@ -55,861 +55,955 @@
       </div>
     </nav>
 
+    <!-- Menu Nav -->
     <div class="container">
-      <section id="pizza" class="menu-item">
-        <h1>Pizza</h1>
-        <p class="tagline">
-          All pies include tomato sauce and cheese, or our white pizza with
-          garlic sauce and cheese. <br />
-          Available in <em>thin and crispy</em>, our our
-          <em>traditional</em> crust.
-        </p>
-        <hr />
-        <section id="build-your-own-pizza">
-          <h2>Build Your Own</h2>
+      <ul
+        class="nav nav-pills mb-3 justify-content-center"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item">
+          <a
+            class="nav-link active"
+            id="pills-pizza-tab"
+            data-toggle="pill"
+            href="#pills-pizza"
+            role="tab"
+            aria-controls="pills-pizza"
+            aria-selected="true"
+            >Pizza</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-subs-tab"
+            data-toggle="pill"
+            href="#pills-subs"
+            role="tab"
+            aria-controls="pills-subs"
+            aria-selected="false"
+            >Subs</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-pasta-tab"
+            data-toggle="pill"
+            href="#pills-pasta"
+            role="tab"
+            aria-controls="pills-pasta"
+            aria-selected="false"
+            >Pasta</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-soup-salad-tab"
+            data-toggle="pill"
+            href="#pills-soup-salad"
+            role="tab"
+            aria-controls="pills-soup-salad"
+            aria-selected="false"
+            >Soup &amp; Salad</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="pills-extras-tab"
+            data-toggle="pill"
+            href="#pills-extras"
+            role="tab"
+            aria-controls="pills-extras"
+            aria-selected="false"
+            >Extras</a
+          >
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-pizza"
+          role="tabpanel"
+          aria-labelledby="pills-pizza-tab"
+        >
+          <h1>Pizza</h1>
+          <p class="tagline">
+            All pies include tomato sauce and cheese, or our white pizza with
+            garlic sauce and cheese. <br />
+            Available in <em>thin and crispy</em>, our our
+            <em>traditional</em> crust.
+          </p>
+          <hr />
+          <section id="build-your-own-pizza">
+            <h2>Build Your Own</h2>
+            <table>
+              <tr class="table-header">
+                <th></th>
+                <th>
+                  Small<br />9"<br />
+                  (6-cut)
+                </th>
+                <th>Large<br />12" <br />(8-cut)</th>
+                <th>Family<br />16" <br />(12-cut)</th>
+                <th>Half Sheet<br />(20-cut)</th>
+              </tr>
+              <tr>
+                <td>Plain (cheese and sauce)</td>
+                <td>$6.99</td>
+                <td>$9.99</td>
+                <td>$12.99</td>
+                <td>$15.99</td>
+              </tr>
+              <tr>
+                <td>Additional Toppings</td>
+                <td>$1.25</td>
+                <td>$1.50</td>
+                <td>$1.75</td>
+                <td>$2.00</td>
+              </tr>
+              <tr>
+                <td>Extra Cheese</td>
+                <td>$2.50</td>
+                <td>$3.00</td>
+                <td>$3.50</td>
+                <td>$4.00</td>
+              </tr>
+            </table>
+
+            <div id="toppings">
+              <h3>Additional Toppings</h3>
+              <p>
+                Extra Cheese, Pepperoni, Ham, Bacon, Mushrooms, Red and Green
+                Peppers, Onions, Black Olives, Sausage, Ground Beef, Mild Banana
+                Pepper Rings, Anchovies, Jalapeno Peppers, Cheddar Cheese, Fresh
+                Sliced Tomato, Pineapple, Fresh Green Peppers, Broccoli,
+                Spinach, Ricotta Cheese
+              </p>
+            </div>
+          </section>
+          <hr />
+          <section id="specialty">
+            <h2>Specialty</h2>
+            <table>
+              <tr>
+                <th>
+                  Small<br />9"<br />
+                  (6-cut)
+                </th>
+                <th>Large<br />12" <br />(8-cut)</th>
+                <th>Family<br />16" <br />(12-cut)</th>
+                <th>Half Sheet<br />(20-cut)</th>
+              </tr>
+              <tr>
+                <td>$11.99</td>
+                <td>$15.99</td>
+                <td>$18.99</td>
+                <td>$22.99</td>
+              </tr>
+            </table>
+
+            <ul>
+              <li>
+                <strong>Deluxe</strong><br />
+                Pepperoni, Mushroom, Red and Green Pepper, Onion, Black Olive,
+                and Sausage
+              </li>
+              <li>
+                <strong>All Meat</strong><br />
+                Pepperoni, Ham, Bacon, Ground Beef, Sausage
+              </li>
+              <li>
+                <strong>Double Bacon Cheese Burger</strong><br />
+                Provolone &amp; Cheddar Cheese, Bacon, Ground Beef
+              </li>
+              <li>
+                <strong>Triple Cheese</strong><br />
+                Two layers of Provolone cheese around one layer of Cheddar
+                Cheese plus any two toppings
+              </li>
+              <li>
+                <strong>Veggie</strong><br />
+                Mushroom, Red and Green Pepper, Onion, Black Olive, Mild Banana
+                Pepper Rings, Fresh Sliced Tomato
+              </li>
+              <li>
+                <strong>Hawaiian</strong><br />
+                Extra Cheese, Ham, Bacon, Pineapple
+              </li>
+              <li>
+                <strong>Give Me 5</strong><br />
+                Any 5 of your favorite toppings
+              </li>
+              <li>
+                <strong>Pepperoni Melt</strong><br />
+                Triple layers of pepperoni and cheese
+              </li>
+              <li>
+                <strong>Taco</strong><br />
+                Seasoned Ground Beef, Taco Sauce, Cheddar Cheese, Black Olives,
+                Onions, Tomatoes, Lettuce
+              </li>
+              <li>
+                <strong>BBQ Chicken</strong><br />
+                Generous serving of real BBQ chicken plus any two of your
+                favorite toppings
+              </li>
+              <li>
+                <strong>Grilled Chicken</strong><br />
+                Big chunks of grilled chicken bus any two of your favorite
+                toppings
+              </li>
+              <li>
+                <strong>Spicy Hot Italian</strong><br />
+                Big chunks of italian sausage, fried peppers, onions, and hot
+                &amp; spicy seasonings
+              </li>
+              <li>
+                <strong>Italian Meatball Pizza</strong><br />
+                Thick slices of our homemade meatballs cover the entire pizza,
+                then it is topped with our special blend of romano cheese and
+                herbs
+              </li>
+              <li>
+                <strong>Garden Ranch</strong><br />
+                Special Ranch Sauce, Cheese, Fresh Green Peppers, Onion, Black
+                Olives, Broccolo, Cauliflower, Fresh Tomatoes
+              </li>
+              <li>
+                <strong>Italian Chicken</strong><br />
+                Italian Seasoned Chicken Chunks, Fresh Green Peppers, Onions
+              </li>
+            </ul>
+          </section>
+          <hr />
+          <section id="french-bread">
+            <h2>French Bread Pizza</h2>
+            <p class="tagline">
+              1/2 loaf of our fresh baked bread, split in two, covered in our
+              special sauce and cheese and baked to a golden brown.
+            </p>
+            <table>
+              <tr>
+                <td>Plain Cheese</td>
+                <td>$7.49</td>
+              </tr>
+              <tr>
+                <td>Pepperoni</td>
+                <td>$8.99</td>
+              </tr>
+              <tr>
+                <td>Sausage</td>
+                <td>$8.99</td>
+              </tr>
+              <tr>
+                <td>Veggie</td>
+                <td>$9.99</td>
+              </tr>
+              <tr>
+                <td>Deluxe</td>
+                <td>$10.99</td>
+              </tr>
+              <tr>
+                <td>Additional Toppings</td>
+                <td>$1.25</td>
+              </tr>
+            </table>
+          </section>
+          <hr />
+          <section id="calzone">
+            <h2>Calzones</h2>
+            <p class="tagline">
+              A traditional Cala's Pizza folded over and stuffed with your
+              favorite pizza toppings, then seasoned with a blend of romano
+              cheese and italian spices, coated in olive oal, and baked to a
+              golden brown
+              <br />
+              Served with your choice of dipping sauce: <br />
+              <em>Marinara, Garlic Butter, Ranch, or A-1 Sauce</em>
+            </p>
+            <table>
+              <tr>
+                <th></th>
+                <th>Regular</th>
+                <th>Large</th>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  <strong>Provolone Cheese</strong><br />
+                  This one is nothing special, just a provolone cheese calzone.
+                </td>
+                <td>$6.99</td>
+                <td>$9.99</td>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  <strong>Three Cheese</strong><br />
+                  Provolone, Cheddar, and Seasoned Romano Cheeses
+                </td>
+                <td>$9.99</td>
+                <td>$12.99</td>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  <strong>Veggie</strong><br />
+                  Mushrooms, Red &amp; Green Peppers, Onions, Black Olives, Mild
+                  Banana Peppers, and Sliced Tomatoes
+                </td>
+                <td>$9.99</td>
+                <td>$12.99</td>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  <strong>Pepperoni</strong><br />
+                  Loads of pepperoni and provolone cheese
+                </td>
+                <td>$9.99</td>
+                <td>$12.99</td>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  <strong>Sausage</strong><br />
+                  Slices of Italian sausage and provolone cheese
+                </td>
+                <td>$9.99</td>
+                <td>$12.99</td>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  <strong>Deluxe</strong><br />
+                  Pepperoni, Mushrooms, Red &amp; Green Peppers, Onions, Black
+                  Olives, and Sausages
+                </td>
+                <td>$9.99</td>
+                <td>$12.99</td>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  <strong>Spinach &amp; Ricotta</strong><br />
+                  Chopped Spinach and Ricotte Cheese
+                </td>
+                <td>$9.99</td>
+                <td>$12.99</td>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  <strong>Meatball</strong><br />
+                  Thick slices of our homemade meatballs and provolone cheese
+                </td>
+                <td>$9.99</td>
+                <td>$12.99</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-subs"
+          role="tabpanel"
+          aria-labelledby="pills-subs-tab"
+        >
+          <h1>Subs &amp; Sandwiches</h1>
+          <p class="tagline">Add a side of fries to any sub for only $1.49</p>
+          <hr />
           <table>
-            <tr class="table-header">
+            <tr>
               <th></th>
               <th>
-                Small<br />9"<br />
-                (6-cut)
+                Regular <br />
+                8"
               </th>
-              <th>Large<br />12" <br />(8-cut)</th>
-              <th>Family<br />16" <br />(12-cut)</th>
-              <th>Half Sheet<br />(20-cut)</th>
-            </tr>
-            <tr>
-              <td>Plain (cheese and sauce)</td>
-              <td>$6.99</td>
-              <td>$9.99</td>
-              <td>$12.99</td>
-              <td>$15.99</td>
-            </tr>
-            <tr>
-              <td>Additional Toppings</td>
-              <td>$1.25</td>
-              <td>$1.50</td>
-              <td>$1.75</td>
-              <td>$2.00</td>
-            </tr>
-            <tr>
-              <td>Extra Cheese</td>
-              <td>$2.50</td>
-              <td>$3.00</td>
-              <td>$3.50</td>
-              <td>$4.00</td>
-            </tr>
-          </table>
-
-          <div id="toppings">
-            <h3>Additional Toppings</h3>
-            <p>
-              Extra Cheese, Pepperoni, Ham, Bacon, Mushrooms, Red and Green
-              Peppers, Onions, Black Olives, Sausage, Ground Beef, Mild Banana
-              Pepper Rings, Anchovies, Jalapeno Peppers, Cheddar Cheese, Fresh
-              Sliced Tomato, Pineapple, Fresh Green Peppers, Broccoli, Spinach,
-              Ricotta Cheese
-            </p>
-          </div>
-        </section>
-        <hr />
-        <section id="specialty">
-          <h2>Specialty</h2>
-          <table>
-            <tr>
               <th>
-                Small<br />9"<br />
-                (6-cut)
+                Jumbo <br />
+                15"
               </th>
-              <th>Large<br />12" <br />(8-cut)</th>
-              <th>Family<br />16" <br />(12-cut)</th>
-              <th>Half Sheet<br />(20-cut)</th>
             </tr>
             <tr>
-              <td>$11.99</td>
-              <td>$15.99</td>
-              <td>$18.99</td>
-              <td>$22.99</td>
-            </tr>
-          </table>
-
-          <ul>
-            <li>
-              <strong>Deluxe</strong><br />
-              Pepperoni, Mushroom, Red and Green Pepper, Onion, Black Olive, and
-              Sausage
-            </li>
-            <li>
-              <strong>All Meat</strong><br />
-              Pepperoni, Ham, Bacon, Ground Beef, Sausage
-            </li>
-            <li>
-              <strong>Double Bacon Cheese Burger</strong><br />
-              Provolone &amp; Cheddar Cheese, Bacon, Ground Beef
-            </li>
-            <li>
-              <strong>Triple Cheese</strong><br />
-              Two layers of Provolone cheese around one layer of Cheddar Cheese
-              plus any two toppings
-            </li>
-            <li>
-              <strong>Veggie</strong><br />
-              Mushroom, Red and Green Pepper, Onion, Black Olive, Mild Banana
-              Pepper Rings, Fresh Sliced Tomato
-            </li>
-            <li>
-              <strong>Hawaiian</strong><br />
-              Extra Cheese, Ham, Bacon, Pineapple
-            </li>
-            <li>
-              <strong>Give Me 5</strong><br />
-              Any 5 of your favorite toppings
-            </li>
-            <li>
-              <strong>Pepperoni Melt</strong><br />
-              Triple layers of pepperoni and cheese
-            </li>
-            <li>
-              <strong>Taco</strong><br />
-              Seasoned Ground Beef, Taco Sauce, Cheddar Cheese, Black Olives,
-              Onions, Tomatoes, Lettuce
-            </li>
-            <li>
-              <strong>BBQ Chicken</strong><br />
-              Generous serving of real BBQ chicken plus any two of your favorite
-              toppings
-            </li>
-            <li>
-              <strong>Grilled Chicken</strong><br />
-              Big chunks of grilled chicken bus any two of your favorite
-              toppings
-            </li>
-            <li>
-              <strong>Spicy Hot Italian</strong><br />
-              Big chunks of italian sausage, fried peppers, onions, and hot
-              &amp; spicy seasonings
-            </li>
-            <li>
-              <strong>Italian Meatball Pizza</strong><br />
-              Thick slices of our homemade meatballs cover the entire pizza,
-              then it is topped with our special blend of romano cheese and
-              herbs
-            </li>
-            <li>
-              <strong>Garden Ranch</strong><br />
-              Special Ranch Sauce, Cheese, Fresh Green Peppers, Onion, Black
-              Olives, Broccolo, Cauliflower, Fresh Tomatoes
-            </li>
-            <li>
-              <strong>Italian Chicken</strong><br />
-              Italian Seasoned Chicken Chunks, Fresh Green Peppers, Onions
-            </li>
-          </ul>
-        </section>
-        <hr />
-        <section id="french-bread">
-          <h2>French Bread Pizza</h2>
-          <p class="tagline">
-            1/2 loaf of our fresh baked bread, split in two, covered in our
-            special sauce and cheese and baked to a golden brown.
-          </p>
-          <table>
-            <tr>
-              <td>Plain Cheese</td>
-              <td>$7.49</td>
-            </tr>
-            <tr>
-              <td>Pepperoni</td>
-              <td>$8.99</td>
-            </tr>
-            <tr>
-              <td>Sausage</td>
-              <td>$8.99</td>
-            </tr>
-            <tr>
-              <td>Veggie</td>
-              <td>$9.99</td>
-            </tr>
-            <tr>
-              <td>Deluxe</td>
+              <td>
+                <strong>Cala's Super Italian Sub</strong><br />
+                Our super sub is guarenteed to satidy the heartiest of
+                appitites. This sandwich has a layer of ham, genoa salami,
+                provolone cheese, fried peppers, lettuce, tomatoes, and onions,
+                piled high on a fresh sub bun with our house dressing. Served
+                hot or cold.
+              </td>
+              <td>$6.49</td>
               <td>$10.99</td>
             </tr>
             <tr>
-              <td>Additional Toppings</td>
-              <td>$1.25</td>
-            </tr>
-          </table>
-        </section>
-        <hr />
-        <section id="calzone">
-          <h2>Calzones</h2>
-          <p class="tagline">
-            A traditional Cala's Pizza folded over and stuffed with your
-            favorite pizza toppings, then seasoned with a blend of romano cheese
-            and italian spices, coated in olive oal, and baked to a golden brown
-            <br />
-            Served with your choice of dipping sauce: <br />
-            <em>Marinara, Garlic Butter, Ranch, or A-1 Sauce</em>
-          </p>
-          <table>
-            <tr>
-              <th></th>
-              <th>Regular</th>
-              <th>Large</th>
+              <td class="item-title">
+                <strong>Cala's Meatball Sub</strong><br />
+                A healthy serving of Cala's delicious homemade meatballs,
+                smothered in marinara sauce and provolone cheese in an oven
+                toasted roll.
+              </td>
+              <td>$6.49</td>
+              <td>$10.99</td>
             </tr>
             <tr>
               <td class="item-title">
-                <strong>Provolone Cheese</strong><br />
-                This one is nothing special, just a provolone cheese calzone.
+                <strong>Cala's Sausage Sub</strong><br />
+                A large link of Cala's home prepared Italian sausage smothered
+                in marinara sauce and provolone cheese in an oven toasted roll.
               </td>
+              <td>$6.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Genoa Salami Sub</strong><br />
+                Layers of thinly sliced Genoa salami topped with lettuce,
+                tomato, and provolone cheese served hot or cold.
+              </td>
+              <td>$6.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Ham and Cheese Sub</strong><br />
+                Layers of thinly sliced baked ham topped with lettuce, tomato,
+                and provolone cheese, searved hot or cold.
+              </td>
+              <td>$6.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Pepperoni Sub</strong><br />
+                Piles of our delicious spicy pepperoni topped with provolone
+                cheese, lettuce, tomato, and mayo, served hot or cold.
+              </td>
+              <td>$6.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Turkey Sub</strong><br />
+                A thick layer of shaved turkey topped with provolone
+                cheese,lettuce, tomato, and mayo, served hot or cold.
+              </td>
+              <td>$6.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Tuna Sub</strong><br />
+                A generous portion of tuna salad topped with provolone cheese,
+                red onion, lettuce, and tomato, served hot or cold.
+              </td>
+              <td>$6.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Veggie Sub</strong><br />
+                Lettuce, tomatoes, black olives, onions, banana pepper rings,
+                mushrooms, provolone cheese, and our house Italian dressing,
+                served hot or cold.
+              </td>
+              <td>$6.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Eggplant Parmigiana Sub</strong><br />
+                Slices of breaded egglant, lightly seasoned and covered with
+                marinara sauce and provolone cheese.
+              </td>
+              <td>$6.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Steak and Cheese Sub</strong><br />
+                Marinated sirloin steak thinly sliced and sauteed and smothered
+                in melted provolone cheese.
+                <em>Add mushrooms, onions, and green peppers for $0.45.</em>
+              </td>
+              <td>$8.49</td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Veal Parmigiana Sub</strong><br />
+                A breaded veal steak lightly seasoned and fried, covered with
+                marinara sauce and provolone cheese.
+              </td>
+              <td>$8.49</td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Chicken Parmigiana Sub</strong><br />
+                breaded chicken breast, lightly seasoned and fried, covered with
+                marinara sauce and provolone cheese
+              </td>
+              <td>$8.49</td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Chicken Club Sub</strong><br />
+                Breaded chicken breast, lightly seasoned and fried, bacon,
+                lettuce, tomato, mayo, and provolone cheese.
+              </td>
+              <td>$8.49</td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Grilled Chicken Breast Sub</strong><br />
+                Grilled chicken breast, lettuce, tomato, and your choice of
+                mayo, honey mustard, or BBQ sauce.
+              </td>
+              <td>$8.49</td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Turkey Club Sub</strong><br />
+                Our delicious turkey, piled high with a generous layor of crisp
+                bacon.
+              </td>
+              <td>$7.49</td>
+              <td>$11.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>B.L.T. Sub</strong><br />
+                A traditional bacon, lettuce, and tomato sandwich, but in a
+                Cala's Pizza sized sub
+              </td>
+              <td>$7.49</td>
+              <td>$11.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Pizza Burger</strong><br />
+                Two delicious slices of Cala's famous sheet pizza surround a
+                thick piece of our special recipe Italian Sausage. Now served
+                with an extra splash of sauce and melted cheese.
+                <em>Add fried peppers and onions for $0.99.</em>
+              </td>
+              <td>$8.99</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-pasta"
+          role="tabpanel"
+          aria-labelledby="pills-pasta-tab"
+        >
+          <h1>Pasta</h1>
+          <p class="tagline">
+            All dinners are served with a dinner salad and homemade Italian
+            bread and butter. <br />
+            <em
+              >Substitute any cup of wedding soup for the dinner salad for
+              $0.99.</em
+            ><br />
+            <em>Add provolone cheese to any dinner salad for $0.99.</em>
+          </p>
+          <hr />
+          <h2>Build Your Own</h2>
+
+          <table>
+            <tr>
+              <th></th>
+              <th>
+                Spaghetti <br />
+                Rigatoni <br />
+                Cavatelli
+              </th>
+              <th>
+                Stuffed Shells <br />
+                Ravioli (Meat or Cheese)
+              </th>
+            </tr>
+            <tr>
+              <td>Marinara Sauce</td>
+              <td>$7.99</td>
+              <td>$8.99</td>
+            </tr>
+            <tr>
+              <td>Meat Sauce</td>
+              <td>$8.99</td>
+              <td>$10.49</td>
+            </tr>
+            <tr>
+              <td>Meatballs</td>
+              <td>$8.99</td>
+              <td>$10.49</td>
+            </tr>
+            <tr>
+              <td>Italian Sausage</td>
+              <td>$9.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td>Mushroom Sauce</td>
+              <td>$9.49</td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td>Supreme</td>
+              <td>$10.99</td>
+              <td>$11.99</td>
+            </tr>
+          </table>
+
+          <ul id="sauce-options">
+            <li>
+              <strong>Marinara Sauce</strong><br />
+              Our own special recipe tomato sauce simmered eight hours for an
+              old world flavor.
+            </li>
+            <li>
+              <strong>Meat Sauce</strong><br />
+              Our special marinara sauce packed thick with specially seasoned
+              ground beef.
+            </li>
+            <li>
+              <strong>Meatballs</strong><br />
+              Our special marinara sauce topped wiith two of our large homemade
+              all-beef meatballs.
+            </li>
+            <li>
+              <strong>Italian Sausage</strong><br />
+              Our special marinara sauce topped with two large links of our
+              home-prepared 1005 pork Italian sausage.
+            </li>
+            <li>
+              <strong>Mushroom Sauce</strong><br />
+              A generous serving of sliced mushrooms blended in our own special
+              marinara sauce.
+            </li>
+            <li>
+              <strong>Supreme</strong><br />
+              This choice is for the hearty appitite. A combination of mushroom
+              and meat sauce topped with one each of our homemade meatballs and
+              Italian sausage links.
+            </li>
+          </ul>
+          <hr />
+          <h2>Specialies</h2>
+          <table class="short-table">
+            <tr>
+              <td class="item-title">
+                <strong>Fettuccine Alfredo</strong><br />
+                An old Italian favorite. A generous serving of fettuccine
+                covered with a delicious alfredo sauce.
+              </td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Grilled Chicken Alfredo</strong><br />
+                Strips of our seasoned grilled chicken breast served on top of
+                our delicious Fettuccini Alfredo
+              </td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Lasagna</strong><br />
+                This homemade dish combines our seasoned meat sauce, tasty
+                spaghetti sauce, ricotta, romano and provolone cheeses, all
+                between layers of delicious pasta.
+              </td>
+              <td>$10.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Veal Parmigiana</strong><br />
+                A delicious 100% veal steak, seasoned, breaded, and fried to
+                perfection. Garnished with marinara sauce and melted provolone
+                cheese and served with a aside order of spaghetti.
+              </td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Chicken Parmigiana</strong><br />
+                Two generous sized breaded chicken breasts, lightly seasoned and
+                fried, covered with marinara sauce an dprovolone cheese, then
+                baked and served with a side of spaghetti.
+              </td>
+              <td>$12.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Eggplant Parmigiana</strong><br />
+                Generous slices of eggplant, lightly breaded and seasoned,
+                covered in marinara sauce and provolone cheese, then baked and
+                served with a side of spaghetti.
+              </td>
+              <td>$9.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">
+                <strong>Linguini with Clamsauce</strong><br />
+                A savory combination of garlic, ,olive oil, light cream, and sea
+                clams are sauteed together with Italian herbs and a generous
+                portion of linguini
+              </td>
+              <td>$10.99</td>
+            </tr>
+          </table>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-soup-salad"
+          role="tabpanel"
+          aria-labelledby="pills-soup-salad-tab"
+        >
+          <h1>Soup and Salad</h1>
+          <p class="tagline">
+            Our restaurant houses several options for both soup and salad. Pick
+            below from a range of hot, fresh soups made daily or one of our
+            crisp salads made to order for your needs.
+          </p>
+          <hr />
+          <h2>Soup</h2>
+          <table>
+            <tr>
+              <th></th>
+              <th>Cup</th>
+              <th>Bowl</th>
+            </tr>
+            <tr>
+              <td>Italian Wedding Soup</td>
+              <td>$1.99</td>
+              <td>$3.49</td>
+            </tr>
+            <tr>
+              <td>Chicken Noodle</td>
+              <td>$1.99</td>
+              <td>$3.49</td>
+            </tr>
+          </table>
+
+          <hr />
+          <h2>Salad</h2>
+          <table class="salad">
+            <tr>
+              <th></th>
+              <th>Small</th>
+              <th>Large</th>
+              <th>Family</th>
+            </tr>
+            <tr>
+              <td>
+                <strong>Tossed Salad</strong><br />
+                A fresh combination of lettuce, tomatoes, cucumbers, black
+                olives, and loaded with provolone cheese.
+              </td>
+              <td>$3.99</td>
               <td>$6.99</td>
               <td>$9.99</td>
             </tr>
             <tr>
               <td class="item-title">
-                <strong>Three Cheese</strong><br />
-                Provolone, Cheddar, and Seasoned Romano Cheeses
+                <strong>Garden Salad</strong><br />
+                A garden fresh salad incluing lettuce, tomatoes, cucumbers,
+                green peppers, onions, black olives, and croutons.
               </td>
+              <td>$3.99</td>
+              <td>$6.99</td>
               <td>$9.99</td>
-              <td>$12.99</td>
             </tr>
             <tr>
               <td class="item-title">
-                <strong>Veggie</strong><br />
-                Mushrooms, Red &amp; Green Peppers, Onions, Black Olives, Mild
-                Banana Peppers, and Sliced Tomatoes
+                <strong>Italian Antipasto</strong><br />
+                A hearty combination of lettuce, tomatoes, onions, pepperoncini,
+                chinks of Genoa salami, provolone cheese, black olives, and cici
+                beans. Served with our house Italian dressing.
               </td>
-              <td>$9.99</td>
-              <td>$12.99</td>
+              <td></td>
+              <td>$7.49</td>
+              <td></td>
             </tr>
             <tr>
               <td class="item-title">
-                <strong>Pepperoni</strong><br />
-                Loads of pepperoni and provolone cheese
+                <strong>Grilled Chicken Salad</strong><br />
+                Strips of grilled seasoned chicken breast over a bed of fresh
+                greens including iceberg and romaine lettuce, hard-boiled eggs,
+                cheddar cheese, tomatoes, and onions.
               </td>
-              <td>$9.99</td>
-              <td>$12.99</td>
+              <td></td>
+              <td>$7.49</td>
+              <td></td>
             </tr>
             <tr>
               <td class="item-title">
-                <strong>Sausage</strong><br />
-                Slices of Italian sausage and provolone cheese
+                <strong>Chef Salad</strong><br />
+                Lettuce, tomatoes, onions, cheddar &amp; provolone cheese,
+                hard-boiled eggs, ham, and turkey.
               </td>
-              <td>$9.99</td>
-              <td>$12.99</td>
+              <td></td>
+              <td>$7.49</td>
+              <td></td>
             </tr>
             <tr>
               <td class="item-title">
-                <strong>Deluxe</strong><br />
-                Pepperoni, Mushrooms, Red &amp; Green Peppers, Onions, Black
-                Olives, and Sausages
+                <strong>Caesar Salad</strong><br />
+                Romaine lettuce, croutons, onions, and provolone cheese served
+                with our Caesar dressing.
               </td>
+              <td>$3.99</td>
+              <td>$6.99</td>
               <td>$9.99</td>
-              <td>$12.99</td>
             </tr>
             <tr>
               <td class="item-title">
-                <strong>Spinach &amp; Ricotta</strong><br />
-                Chopped Spinach and Ricotte Cheese
+                <strong>Grilled Chicken Caesar Salad</strong><br />
+                Our delicious Caesar salad topped with chunks of grilled,
+                seasoned chicken.
               </td>
-              <td>$9.99</td>
-              <td>$12.99</td>
+              <td></td>
+              <td>$7.49</td>
+              <td></td>
             </tr>
             <tr>
               <td class="item-title">
-                <strong>Meatball</strong><br />
-                Thick slices of our homemade meatballs and provolone cheese
+                <strong>Taco Salad</strong><br />
+                Lettuce and tortilla chips topped with chopped tomatoes, green
+                onions, cheddar cheese, black olives, and chili. Served with
+                sour cream and ranch dressing
               </td>
-              <td>$9.99</td>
-              <td>$12.99</td>
-            </tr>
-          </table>
-        </section>
-      </section>
-      <!-- End Pizza Div -->
-      <section id="subs" class="menu-item">
-        <h1>Subs &amp; Sandwiches</h1>
-        <p class="tagline">Add a side of fries to any sub for only $1.49</p>
-        <hr />
-        <table>
-          <tr>
-            <th></th>
-            <th>
-              Regular <br />
-              8"
-            </th>
-            <th>
-              Jumbo <br />
-              15"
-            </th>
-          </tr>
-          <tr>
-            <td>
-              <strong>Cala's Super Italian Sub</strong><br />
-              Our super sub is guarenteed to satidy the heartiest of appitites.
-              This sandwich has a layer of ham, genoa salami, provolone cheese,
-              fried peppers, lettuce, tomatoes, and onions, piled high on a
-              fresh sub bun with our house dressing. Served hot or cold.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Cala's Meatball Sub</strong><br />
-              A healthy serving of Cala's delicious homemade meatballs,
-              smothered in marinara sauce and provolone cheese in an oven
-              toasted roll.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Cala's Sausage Sub</strong><br />
-              A large link of Cala's home prepared Italian sausage smothered in
-              marinara sauce and provolone cheese in an oven toasted roll.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Genoa Salami Sub</strong><br />
-              Layers of thinly sliced Genoa salami topped with lettuce, tomato,
-              and provolone cheese served hot or cold.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Ham and Cheese Sub</strong><br />
-              Layers of thinly sliced baked ham topped with lettuce, tomato, and
-              provolone cheese, searved hot or cold.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Pepperoni Sub</strong><br />
-              Piles of our delicious spicy pepperoni topped with provolone
-              cheese, lettuce, tomato, and mayo, served hot or cold.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Turkey Sub</strong><br />
-              A thick layer of shaved turkey topped with provolone
-              cheese,lettuce, tomato, and mayo, served hot or cold.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Tuna Sub</strong><br />
-              A generous portion of tuna salad topped with provolone cheese, red
-              onion, lettuce, and tomato, served hot or cold.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Veggie Sub</strong><br />
-              Lettuce, tomatoes, black olives, onions, banana pepper rings,
-              mushrooms, provolone cheese, and our house Italian dressing,
-              served hot or cold.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Eggplant Parmigiana Sub</strong><br />
-              Slices of breaded egglant, lightly seasoned and covered with
-              marinara sauce and provolone cheese.
-            </td>
-            <td>$6.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Steak and Cheese Sub</strong><br />
-              Marinated sirloin steak thinly sliced and sauteed and smothered in
-              melted provolone cheese.
-              <em>Add mushrooms, onions, and green peppers for $0.45.</em>
-            </td>
-            <td>$8.49</td>
-            <td>$12.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Veal Parmigiana Sub</strong><br />
-              A breaded veal steak lightly seasoned and fried, covered with
-              marinara sauce and provolone cheese.
-            </td>
-            <td>$8.49</td>
-            <td>$12.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Chicken Parmigiana Sub</strong><br />
-              breaded chicken breast, lightly seasoned and fried, covered with
-              marinara sauce and provolone cheese
-            </td>
-            <td>$8.49</td>
-            <td>$12.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Chicken Club Sub</strong><br />
-              Breaded chicken breast, lightly seasoned and fried, bacon,
-              lettuce, tomato, mayo, and provolone cheese.
-            </td>
-            <td>$8.49</td>
-            <td>$12.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Grilled Chicken Breast Sub</strong><br />
-              Grilled chicken breast, lettuce, tomato, and your choice of mayo,
-              honey mustard, or BBQ sauce.
-            </td>
-            <td>$8.49</td>
-            <td>$12.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Turkey Club Sub</strong><br />
-              Our delicious turkey, piled high with a generous layor of crisp
-              bacon.
-            </td>
-            <td>$7.49</td>
-            <td>$11.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>B.L.T. Sub</strong><br />
-              A traditional bacon, lettuce, and tomato sandwich, but in a Cala's
-              Pizza sized sub
-            </td>
-            <td>$7.49</td>
-            <td>$11.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Pizza Burger</strong><br />
-              Two delicious slices of Cala's famous sheet pizza surround a thick
-              piece of our special recipe Italian Sausage. Now served with an
-              extra splash of sauce and melted cheese.
-              <em>Add fried peppers and onions for $0.99.</em>
-            </td>
-            <td>$8.99</td>
-            <td></td>
-          </tr>
-        </table>
-      </section>
-      <!-- End Subs Div -->
-      <section id="pasta" class="menu-item">
-        <h1>Pasta</h1>
-        <p class="tagline">
-          All dinners are served with a dinner salad and homemade Italian bread
-          and butter. <br />
-          <em
-            >Substitute any cup of wedding soup for the dinner salad for
-            $0.99.</em
-          ><br />
-          <em>Add provolone cheese to any dinner salad for $0.99.</em>
-        </p>
-        <hr />
-        <h2>Build Your Own</h2>
-
-        <table>
-          <tr>
-            <th></th>
-            <th>
-              Spaghetti <br />
-              Rigatoni <br />
-              Cavatelli
-            </th>
-            <th>
-              Stuffed Shells <br />
-              Ravioli (Meat or Cheese)
-            </th>
-          </tr>
-          <tr>
-            <td>Marinara Sauce</td>
-            <td>$7.99</td>
-            <td>$8.99</td>
-          </tr>
-          <tr>
-            <td>Meat Sauce</td>
-            <td>$8.99</td>
-            <td>$10.49</td>
-          </tr>
-          <tr>
-            <td>Meatballs</td>
-            <td>$8.99</td>
-            <td>$10.49</td>
-          </tr>
-          <tr>
-            <td>Italian Sausage</td>
-            <td>$9.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td>Mushroom Sauce</td>
-            <td>$9.49</td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td>Supreme</td>
-            <td>$10.99</td>
-            <td>$11.99</td>
-          </tr>
-        </table>
-
-        <ul id="sauce-options">
-          <li>
-            <strong>Marinara Sauce</strong><br />
-            Our own special recipe tomato sauce simmered eight hours for an old
-            world flavor.
-          </li>
-          <li>
-            <strong>Meat Sauce</strong><br />
-            Our special marinara sauce packed thick with specially seasoned
-            ground beef.
-          </li>
-          <li>
-            <strong>Meatballs</strong><br />
-            Our special marinara sauce topped wiith two of our large homemade
-            all-beef meatballs.
-          </li>
-          <li>
-            <strong>Italian Sausage</strong><br />
-            Our special marinara sauce topped with two large links of our
-            home-prepared 1005 pork Italian sausage.
-          </li>
-          <li>
-            <strong>Mushroom Sauce</strong><br />
-            A generous serving of sliced mushrooms blended in our own special
-            marinara sauce.
-          </li>
-          <li>
-            <strong>Supreme</strong><br />
-            This choice is for the hearty appitite. A combination of mushroom
-            and meat sauce topped with one each of our homemade meatballs and
-            Italian sausage links.
-          </li>
-        </ul>
-        <hr />
-        <h2>Specialies</h2>
-        <table class="short-table">
-          <tr>
-            <td class="item-title">
-              <strong>Fettuccine Alfredo</strong><br />
-              An old Italian favorite. A generous serving of fettuccine covered
-              with a delicious alfredo sauce.
-            </td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Grilled Chicken Alfredo</strong><br />
-              Strips of our seasoned grilled chicken breast served on top of our
-              delicious Fettuccini Alfredo
-            </td>
-            <td>$12.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Lasagna</strong><br />
-              This homemade dish combines our seasoned meat sauce, tasty
-              spaghetti sauce, ricotta, romano and provolone cheeses, all
-              between layers of delicious pasta.
-            </td>
-            <td>$10.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Veal Parmigiana</strong><br />
-              A delicious 100% veal steak, seasoned, breaded, and fried to
-              perfection. Garnished with marinara sauce and melted provolone
-              cheese and served with a aside order of spaghetti.
-            </td>
-            <td>$12.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Chicken Parmigiana</strong><br />
-              Two generous sized breaded chicken breasts, lightly seasoned and
-              fried, covered with marinara sauce an dprovolone cheese, then
-              baked and served with a side of spaghetti.
-            </td>
-            <td>$12.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Eggplant Parmigiana</strong><br />
-              Generous slices of eggplant, lightly breaded and seasoned, covered
-              in marinara sauce and provolone cheese, then baked and served with
-              a side of spaghetti.
-            </td>
-            <td>$9.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Linguini with Clamsauce</strong><br />
-              A savory combination of garlic, ,olive oil, light cream, and sea
-              clams are sauteed together with Italian herbs and a generous
-              portion of linguini
-            </td>
-            <td>$10.99</td>
-          </tr>
-        </table>
-      </section>
-      <!-- End Pasta Div -->
-      <section id="soup-salad" class="menu-item">
-        <h1>Soup and Salad</h1>
-        <p class="tagline">
-          Our restaurant houses several options for both soup and salad. Pick
-          below from a range of hot, fresh soups made daily or one of our crisp
-          salads made to order for your needs.
-        </p>
-        <hr />
-        <h2>Soup</h2>
-        <table>
-          <tr>
-            <th></th>
-            <th>Cup</th>
-            <th>Bowl</th>
-          </tr>
-          <tr>
-            <td>Italian Wedding Soup</td>
-            <td>$1.99</td>
-            <td>$3.49</td>
-          </tr>
-          <tr>
-            <td>Chicken Noodle</td>
-            <td>$1.99</td>
-            <td>$3.49</td>
-          </tr>
-        </table>
-
-        <hr />
-        <h2>Salad</h2>
-        <table class="salad">
-          <tr>
-            <th></th>
-            <th>Small</th>
-            <th>Large</th>
-            <th>Family</th>
-          </tr>
-          <tr>
-            <td>
-              <strong>Tossed Salad</strong><br />
-              A fresh combination of lettuce, tomatoes, cucumbers, black olives,
-              and loaded with provolone cheese.
-            </td>
-            <td>$3.99</td>
-            <td>$6.99</td>
-            <td>$9.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Garden Salad</strong><br />
-              A garden fresh salad incluing lettuce, tomatoes, cucumbers, green
-              peppers, onions, black olives, and croutons.
-            </td>
-            <td>$3.99</td>
-            <td>$6.99</td>
-            <td>$9.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Italian Antipasto</strong><br />
-              A hearty combination of lettuce, tomatoes, onions, pepperoncini,
-              chinks of Genoa salami, provolone cheese, black olives, and cici
-              beans. Served with our house Italian dressing.
-            </td>
-            <td></td>
-            <td>$7.49</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Grilled Chicken Salad</strong><br />
-              Strips of grilled seasoned chicken breast over a bed of fresh
-              greens including iceberg and romaine lettuce, hard-boiled eggs,
-              cheddar cheese, tomatoes, and onions.
-            </td>
-            <td></td>
-            <td>$7.49</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Chef Salad</strong><br />
-              Lettuce, tomatoes, onions, cheddar &amp; provolone cheese,
-              hard-boiled eggs, ham, and turkey.
-            </td>
-            <td></td>
-            <td>$7.49</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Caesar Salad</strong><br />
-              Romaine lettuce, croutons, onions, and provolone cheese served
-              with our Caesar dressing.
-            </td>
-            <td>$3.99</td>
-            <td>$6.99</td>
-            <td>$9.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Grilled Chicken Caesar Salad</strong><br />
-              Our delicious Caesar salad topped with chunks of grilled, seasoned
-              chicken.
-            </td>
-            <td></td>
-            <td>$7.49</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Taco Salad</strong><br />
-              Lettuce and tortilla chips topped with chopped tomatoes, green
-              onions, cheddar cheese, black olives, and chili. Served with sour
-              cream and ranch dressing
-            </td>
-            <td></td>
-            <td>$7.49</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="item-title">
-              <strong>Tuna Salad</strong><br />
-              Lettuce, tomatoes, onions, cheddar &amp; provolone cheese,
-              hard-boiled eggs, and tuna.
-            </td>
-            <td></td>
-            <td>$7.49</td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="item-title" colspan="4">
-              House Italian, Creamy Italian, French, 1000 Island, Ranch,
-              Poppyseed, Lite Italian, Fat-Free Ranch, Raspberry Vinaigrette,
-              Vinegar & Oil, Honey Mustard <br /><em
-                >Bleu Cheese is an extra $0.75.</em
-              >
-            </td>
-          </tr>
-        </table>
-      </section>
-      <!-- End Extras Div -->
-      <section id="extras" class="menu-item">
-        <h1>Extras</h1>
-        <p class="tagline">
-          Enjoy some of our amazing hand made side dishes that can add even more
-          deliciousness to your meal.
-        </p>
-
-        <hr />
-        <h2>Sides</h2>
-        <table>
-          <tr>
-            <td class="item-title">Spaghetti</td>
-            <td>$4.29</td>
-          </tr>
-          <tr>
-            <td class="item-title">Rigatoni</td>
-            <td>$4.29</td>
-          </tr>
-          <tr>
-            <td class="item-title">Cavatelli</td>
-            <td>$4.79</td>
-          </tr>
-          <tr>
-            <td class="item-title">Meatballs (1)</td>
-            <td>$0.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">Meatballs (3)</td>
-            <td>$2.79</td>
-          </tr>
-          <tr>
-            <td class="item-title">Italian Sausage Link</td>
-            <td>$1.29</td>
-          </tr>
-          <tr>
-            <td class="item-title">French Fries</td>
-            <td>$1.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">Onion Rings</td>
-            <td>$2.99</td>
-          </tr>
-          <tr>
-            <td class="item-title">Bread and Butter</td>
-            <td>$0.69</td>
-          </tr>
-          <tr>
-            <td class="item-title">pepperoncini</td>
-            <td>$0.69</td>
-          </tr>
-          <tr>
-            <td class="item-title">Coleslaw</td>
-            <td>$1.79</td>
-          </tr>
-          <tr>
-            <td class="item-title">Celery and Bleu Cheese</td>
-            <td>$1.49</td>
-          </tr>
-        </table>
-
-        <hr />
-        <div id="desserts">
-          <h2>Desserts</h2>
-          <table>
-            <tr>
-              <td class="item-title">Cheesecake</td>
-              <td>$2.59</td>
-            </tr>
-            <tr>
-              <td class="item-title">Cherry Cheesecake</td>
-              <td>$2.99</td>
+              <td></td>
+              <td>$7.49</td>
+              <td></td>
             </tr>
             <tr>
               <td class="item-title">
-                Fried Dough <br />
-                <em
-                  >Served with icing and your choice of cinnamon or powdered
-                  sugar.</em
+                <strong>Tuna Salad</strong><br />
+                Lettuce, tomatoes, onions, cheddar &amp; provolone cheese,
+                hard-boiled eggs, and tuna.
+              </td>
+              <td></td>
+              <td>$7.49</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="item-title" colspan="4">
+                House Italian, Creamy Italian, French, 1000 Island, Ranch,
+                Poppyseed, Lite Italian, Fat-Free Ranch, Raspberry Vinaigrette,
+                Vinegar & Oil, Honey Mustard <br /><em
+                  >Bleu Cheese is an extra $0.75.</em
                 >
               </td>
-              <td>$4.79</td>
-            </tr>
-            <tr>
-              <td class="item-title">
-                Dessert Pizza <br />
-                <em
-                  >9" 6 Piece dessert pizza. Your choice of apple or cherry.</em
-                >
-              </td>
-              <td>$7.99</td>
             </tr>
           </table>
         </div>
-      </section>
+        <div
+          class="tab-pane fade"
+          id="pills-extras"
+          role="tabpanel"
+          aria-labelledby="pills-extras-tab"
+        >
+          <h1>Extras</h1>
+          <p class="tagline">
+            Enjoy some of our amazing hand made side dishes that can add even
+            more deliciousness to your meal.
+          </p>
+
+          <hr />
+          <h2>Sides</h2>
+          <table>
+            <tr>
+              <td class="item-title">Spaghetti</td>
+              <td>$4.29</td>
+            </tr>
+            <tr>
+              <td class="item-title">Rigatoni</td>
+              <td>$4.29</td>
+            </tr>
+            <tr>
+              <td class="item-title">Cavatelli</td>
+              <td>$4.79</td>
+            </tr>
+            <tr>
+              <td class="item-title">Meatballs (1)</td>
+              <td>$0.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">Meatballs (3)</td>
+              <td>$2.79</td>
+            </tr>
+            <tr>
+              <td class="item-title">Italian Sausage Link</td>
+              <td>$1.29</td>
+            </tr>
+            <tr>
+              <td class="item-title">French Fries</td>
+              <td>$1.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">Onion Rings</td>
+              <td>$2.99</td>
+            </tr>
+            <tr>
+              <td class="item-title">Bread and Butter</td>
+              <td>$0.69</td>
+            </tr>
+            <tr>
+              <td class="item-title">pepperoncini</td>
+              <td>$0.69</td>
+            </tr>
+            <tr>
+              <td class="item-title">Coleslaw</td>
+              <td>$1.79</td>
+            </tr>
+            <tr>
+              <td class="item-title">Celery and Bleu Cheese</td>
+              <td>$1.49</td>
+            </tr>
+          </table>
+
+          <hr />
+          <div id="desserts">
+            <h2>Desserts</h2>
+            <table>
+              <tr>
+                <td class="item-title">Cheesecake</td>
+                <td>$2.59</td>
+              </tr>
+              <tr>
+                <td class="item-title">Cherry Cheesecake</td>
+                <td>$2.99</td>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  Fried Dough <br />
+                  <em
+                    >Served with icing and your choice of cinnamon or powdered
+                    sugar.</em
+                  >
+                </td>
+                <td>$4.79</td>
+              </tr>
+              <tr>
+                <td class="item-title">
+                  Dessert Pizza <br />
+                  <em
+                    >9" 6 Piece dessert pizza. Your choice of apple or
+                    cherry.</em
+                  >
+                </td>
+                <td>$7.99</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

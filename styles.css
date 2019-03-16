@@ -1,4 +1,4 @@
-/* Jumbotron */
+/* Home Page */
 .hero {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/pizza.hero.jpg") center/cover no-repeat;
@@ -6,6 +6,14 @@
 .jumbotron .container {
   /* background: rgba(255, 255, 255, 0.3); */
   color: white;
+}
+#about h1 {
+  text-align: center;
+  margin-bottom: 75px;
+}
+#about img {
+  float: left;
+  margin: 0 20px 20px 0;
 }
 
 /* Menu */
@@ -22,35 +30,35 @@ th {
   width: 60%;
   margin: 0 auto;
 }
-.menu-item {
+#pills-tabContent {
   margin-top: 50px;
 }
-.menu-item h1 {
+#pills-tabContent h1 {
   font-size: 1.75rem;
   text-align: center;
   color: white;
   padding: 35px 0;
 }
-.menu-item h2 {
+#pills-tabContent h2 {
   margin-top: 20px;
 }
-#pizza h1 {
+#pills-pizza h1 {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/pizza.hero.jpg") center/cover no-repeat;
 }
-#subs h1 {
+#pills-subs h1 {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/subs.jpg") center/cover no-repeat;
 }
-#pasta h1 {
+#pills-pasta h1 {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/pasta.jpg") center/cover no-repeat;
 }
-#soup-salad h1 {
+#pills-soup-salad h1 {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/salad.jpg") center/cover no-repeat;
 }
-#extras h1 {
+#pills-extras h1 {
   background: linear-gradient(rgba(0, 130, 170, 0), rgb(117, 27, 27)),
     url("img/sides.jpg") center/cover no-repeat;
 }
@@ -106,14 +114,6 @@ th {
 }
 
 /* About Page */
-#about h1 {
-  text-align: center;
-  margin-bottom: 75px;
-}
-#about img {
-  float: left;
-  margin: 0 20px 20px 0;
-}
 
 /* Media Queries  */
 @media screen and (max-width: 768px) {
