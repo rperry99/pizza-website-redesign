@@ -18,6 +18,7 @@ This is a redesign of a local pizza shop's website.
 
 - Add Catering Page
 - Add Deals Page
+- An Online Order Form
 
 ## Photo Credits
 
